@@ -23,4 +23,33 @@
         height: 400px;
         display: inline-block;
         }
+#conteudo h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #5c0f5c;
+}
 
+#conteudo h2{
+    padding: 1.5%;
+    font-size: 2.2em;
+    font-weight: bolder;
+    margin-top: 30px;
+    color: #5c0f5c;
+}
+#conteudo button{
+    margin-top: 40px;
+}
+.extra-navegation a span{
+font-weight: bold;
+text-decoration: none;
+font-size: 20px;
+}
+.extra-navegation a:hover{
+color: #5c0f5c;
+}
+.extra-navegation a i{
+    font-size: 50px;
+}
+.extra-navegation svg{
+    font-size: 50px;
+}
