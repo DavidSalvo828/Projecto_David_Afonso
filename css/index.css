@@ -39,13 +39,20 @@
 #conteudo button{
     margin-top: 40px;
 }
-.extra-navegation a span{
+.extra-navegation{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.extra-navegation a{
 font-weight: bold;
-text-decoration: none;
 font-size: 20px;
+text-decoration: none;
+color: black;
 }
 .extra-navegation a:hover{
-color: #5c0f5c;
+    color: #fff;
+    transition: color .3s ease;
 }
 .extra-navegation a i{
     font-size: 50px;
