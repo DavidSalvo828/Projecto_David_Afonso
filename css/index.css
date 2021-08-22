@@ -7,35 +7,76 @@
     padding: 30px;
 }
 
-    .fotos {
-        margin: 0px;
-        width: 100%;
-        padding: 0px 0px 0px;
-        background-color:#ffffff;
-        height: 450px;
-        }
+#section-search img{
+    margin-top: 20px;
+}
 
-    .slider-principal {
-        width: 100%;
-        margin-top: 600px;
-        padding: 0px 0px 0px;
-        background-color:#ffffff;
-        height: 400px;
-        display: inline-block;
-        }
+#section-login img{
+    margin-top: 10px
+}
+#section-login {
+    background-color: #ffffff;
+    background: #ffffff;
+
+}
+
+
+.nav-link:hover{
+    font-weight: bolder;
+    border-bottom: 3px solid #09344b; 
+    border: 3px;
+    margin: 1px;
+}
+.nav-link {
+    font-weight: bolder;
+   
+}
+
 #conteudo h1{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    color: #5c0f5c;
+    color: #5c0f8b;
+    font-weight: bolder;
+    font-size: 70px;
 }
 
 #conteudo h2{
     padding: 1.5%;
     font-size: 2.2em;
     font-weight: bolder;
-    margin-top: 30px;
-    color: #5c0f5c;
+    color: #5c0f8b;
+    font-size: 40px;
 }
+#segundo{
+    margin-top: 100px;
+}
+h5{
+    padding: 1%;
+    font-size: 2.2em;
+    font-weight: bolder;
+    color: #5c0f8b;
+    font-size: 40px;
+}
+
+p{
+    padding: 1%;
+    font-size: 2.2em;
+    color: #656565;
+    font-size: 15px;
+}
+.btn {
+    background-color:#5c0f8b;
+    color: #f16223;
+    font-size: 20px;
+    font-weight: bolder;
+    border-color:#5c0f8b;
+}
+.btn:hover{
+    background-color:#f16223;
+    color: #ffffff;
+    font-size: 20px;
+    border-color: #f16223;
+    font-weight: bolder;
+}
+
 #conteudo button{
     margin-top: 40px;
 }
@@ -60,3 +101,43 @@ color: black;
 .extra-navegation svg{
     font-size: 50px;
 }
+
+#App{
+    background-color:#5c0f8b;
+    width: 100%;
+    height: 400px;
+}
+
+#App h2{
+    padding: 1.5%;
+    font-size: 2.2em;
+    font-weight: bolder;
+    color: #f16223;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+#App p{
+    padding: 1.5%;
+    font-size: 2.2em;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 20px;
+    width: 600px;
+    top: 1px;
+    margin-left: 200px;
+}
+#App img{
+    float: right;
+    flex: none;
+    margin-top: 10px;
+    margin-right: 200px;
+    padding: 1.5%;
+    font-size: 2.2em;
+}
+#menus_fot li{
+    display: block;
+    text-decoration: none;
+}
+
