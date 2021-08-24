@@ -140,7 +140,35 @@ color: black;
    background-color:#5c0f8b;
    margin-top: 1px;
    color: #f16223;
-
 }
 
+#mudanca{
+    margin-left: 150px;
+}
 
+#mudanca h2{
+    padding: 1.5%;
+    font-size: 2.2em;
+    font-weight: bolder;
+    color: #5c0f8b;
+    font-size: 40px;
+    margin-left: 200px;;
+}
+#mudanca button{
+    width: 400px;
+    background-color:#5c0f8b;
+    color: #f16223;
+    font-weight: bolder;
+    border-color:#5c0f8b;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    
+}
+#mudanca button:hover{
+background-color:#f16223;
+color: #ffffff;
+border-color: #f16223;
+font-weight: bolder;
+}
