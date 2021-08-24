@@ -152,7 +152,7 @@ color: black;
     font-weight: bolder;
     color: #5c0f8b;
     font-size: 40px;
-    margin-left: 200px;;
+    margin-left: 200px;
 }
 #mudanca button{
     width: 400px;
@@ -171,4 +171,16 @@ background-color:#f16223;
 color: #ffffff;
 border-color: #f16223;
 font-weight: bolder;
+}
+
+#card-fone{
+    width: 800px;
+    height: 90px;
+}
+#card-fone h5{
+    padding: 1%;
+    font-size: 2.2em;
+    font-weight: bolder;
+    color: #fbfbfa;
+    font-size: 26px;
 }
