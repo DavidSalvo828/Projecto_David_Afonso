@@ -104,7 +104,7 @@ color: black;
 
 #App{
     background-color:#5c0f8b;
-    width: 100%;
+    width: 90%;
     height: 400px;
 }
 
@@ -124,14 +124,13 @@ color: black;
     font-weight: bolder;
     color: #ffffff;
     font-size: 20px;
-    width: 600px;
     top: 1px;
     margin-left: 200px;
 }
 #App img{
     float: right;
     flex: none;
-    margin-top: 10px;
+    margin-top: 1px;
     margin-right: 200px;
     padding: 1.5%;
     font-size: 2.2em;
@@ -143,19 +142,21 @@ color: black;
 }
 
 #mudanca{
-    margin-left: 150px;
+    width: 100%;
+    
 }
 
 #mudanca h2{
-    padding: 1.5%;
+    padding: 1%;
     font-size: 2.2em;
     font-weight: bolder;
     color: #5c0f8b;
     font-size: 40px;
-    margin-left: 200px;
+    margin-left: 300px;
+    margin-top: 1px;
 }
 #mudanca button{
-    width: 400px;
+    width:500px;
     background-color:#5c0f8b;
     color: #f16223;
     font-weight: bolder;
@@ -174,7 +175,7 @@ font-weight: bolder;
 }
 
 #card-fone{
-    width: 800px;
+    width: 90%;
     height: 90px;
 }
 #card-fone h5{
@@ -183,4 +184,5 @@ font-weight: bolder;
     font-weight: bolder;
     color: #fbfbfa;
     font-size: 26px;
+    margin-top: 10px;
 }
