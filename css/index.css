@@ -6,19 +6,36 @@
 .logo-menu{
     padding: 30px;
 }
-
+#icon-search svg{
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 10px;
+}
 #section-search img{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #section-login img{
-    margin-top: 10px
+    margin-top: 10px;
+    margin-left: 12px;
+   
 }
 #section-login {
     background-color: #ffffff;
-    background: #ffffff;
-
+    background: #301555;
+    height: 7rem;
 }
+#section-login a{
+text-decoration:none;
+margin-left: 50px;
+}
+#section-login p{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #f16223;
+    margin-left: 3.5rem;
+    }
 
 
 .nav-link:hover{
@@ -101,10 +118,10 @@ color: black;
 .extra-navegation svg{
     font-size: 50px;
 }
-
+/**
 #App{
     background-color:#5c0f8b;
-    width: 90%;
+    width: 100%;
     height: 400px;
 }
 
@@ -123,66 +140,195 @@ color: black;
     font-size: 2.2em;
     font-weight: bolder;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     top: 1px;
     margin-left: 200px;
 }
 #App img{
     float: right;
     flex: none;
-    margin-top: 1px;
+    margin-top: 0px;
     margin-right: 200px;
     padding: 1.5%;
     font-size: 2.2em;
+    height: 420px;
 }
+**/
+
+
+#App{
+    background-image: url(../img/phone.png);
+    height: 500px;
+    margin-top: 0px;
+}
+
+#App p{
+    margin-left: 200px;
+    margin-right: 600px;
+    color: #ffffff;
+    font-size: 20px;
+}
+#App h2{
+    padding: 1.5%;
+    font-size: 2.2em;
+    font-weight: bolder;
+    color: #f16223;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+
+/** */
 #cot-footer{
-   background-color:#5c0f8b;
+   background-color:#ffffff;
    margin-top: 1px;
    color: #f16223;
 }
 
 #mudanca{
     width: 100%;
-    
+    height: 480px;    
 }
 
-#mudanca h2{
+#mudanca h3{
     padding: 1%;
     font-size: 2.2em;
     font-weight: bolder;
     color: #5c0f8b;
-    font-size: 40px;
-    margin-left: 300px;
-    margin-top: 1px;
+   margin-left: 400px;
+   
 }
-#mudanca button{
-    width:500px;
-    background-color:#5c0f8b;
-    color: #f16223;
+#mudanca img{
+    background-color:#f88010;
+    color: #fbfbfb;
     font-weight: bolder;
-    border-color:#5c0f8b;
+    border-color:#f88010;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     
 }
-#mudanca button:hover{
-background-color:#f16223;
+#mudanca img:hover{
+background-color:#f88010;
 color: #ffffff;
 border-color: #f16223;
 font-weight: bolder;
 }
 
-#card-fone{
-    width: 90%;
-    height: 90px;
+#butao button{
+    width: 620px;
+    font-size: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
-#card-fone h5{
-    padding: 1%;
-    font-size: 2.2em;
+
+
+#butao button:hover{
+    width: 620px;
+    background-color:#5c0f8b;
+    color: #f16223;
+    font-size: 20px;
     font-weight: bolder;
-    color: #fbfbfa;
-    font-size: 26px;
-    margin-top: 10px;
+    border-color:#5c0f8b;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
+
+#princa a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#princa {
+}
+#princa img{
+       
+}
+
+#celu h5{
+    color: #5c0f8b;
+    font-size: 25px;
+}
+#celu h6{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+
+.princ{
+    margin-left: 150px;
+}
+.bordas{
+    border-bottom: 0.5px solid #656565;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+
+}
+#P-rodape{
+    background-color:#5c0f8b;
+    width: 100%;
+   
+    
+}
+
+#rodape li{
+    display: block;
+    
+}
+#rodape a{
+    color: #f16223;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#rodape a li{
+    color: #f16223;
+    text-decoration: none;
+    
+}
+#rodape h6{
+    color: #f16223;
+    font-weight: bold;
+}
+
+#rodape a:hover{
+    color: #f16223;
+    font-weight: bold;
+   
+    
+}
+.fim{
+    margin-top: 20px;
+}
+.final-1{
+    color: #f16223;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 190px;
+}
+
+.finales{
+    color: #f16223;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 400px;
+}
+
+.finale{
+    color: #f16223;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
